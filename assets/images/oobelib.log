@@ -1,0 +1,4 @@
+﻿09/10/23 20:21:31:953 | [INFO] |  |  |  | AnalyticsClientLib |  |  | 8460 | Creating Log Instance of type 0
+09/10/23 20:21:31:956 | [INFO] |  |  |  | AnalyticsClientLib |  |  | 8460 | adobe::dlc::analytics::DatabaseHandler::createUpdateDb Completed
+09/10/23 20:21:31:957 | [ERROR] |  |  |  | AnalyticsClientLib |  |  | 8460 | Endpoint not present in dispatch table!! Analytics would be sent.
+09/10/23 20:21:32:025 | [ERROR] |  |  |  | AnalyticsClientLib |  |  | 8460 | Closing Database handler session

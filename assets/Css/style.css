@@ -477,3 +477,18 @@ margin-top: 40px;
 .end{
   background: rgba(0, 0, 0, 0.68);
 }
+.socialmedias{
+  display: flex;
+  gap: 5px;
+}
+.socialmedias i{
+  color: white;
+}
+
+.footerbottom{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  align-items: center;
+  padding-bottom: 50px;
+}

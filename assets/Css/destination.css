@@ -1,0 +1,72 @@
+.section1 h2 {
+    font-size: 60px;
+    color: white;
+    padding:150px 0;
+}
+
+.welcomepage {
+    background-image: url("../images/Rectangle\ 182.png");
+    background-size: cover;
+    border: 1px solid;   
+}
+
+.abouttext{
+    display: flex;
+    line-height: 40px;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+}
+.abouttext p{
+    width: 550px;
+    font-weight: 700;
+}
+.abouttext h1{
+    width: 31ch;
+}
+.countries{
+    font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+padding: 40px;
+margin-left: 60px;
+}
+
+.countries p{
+    border: 2px solid #C4C4C4;
+    padding: 20px 80px;
+}
+.travelcardmain{
+    width: 400px;
+    background-color: pink;
+    
+}
+.travelcardmain img {
+    width: 100%;
+    height: 100%;
+}
+.travelcardtext{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    bottom: 60px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4.19767px 10.49419px 0px rgba(0, 0, 0, 0.25);
+
+}
+.travelcardtext p,.travelcardtext h4{
+    padding: 10px;
+}
+.alltravelcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}

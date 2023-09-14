@@ -38,7 +38,7 @@
   background-color: #0336FF;
 }
 
-.navigationbar a:hover {
+.navigationbar .nav:hover {
   background-color: #0336FF;
 }
 
@@ -70,6 +70,7 @@
   width: 22ch;
   text-align: center;
   font-size: 64px;
+  padding: 10px;
 }
 
 .section1 span {
@@ -80,6 +81,7 @@
 .section1 span,
 .section1 p {
   font-size: 30px;
+  padding: 10px;
 }
 
 .location {
@@ -183,6 +185,10 @@
   background-color: white;
   padding: 6px;
 }
+.card4 img{
+  width: 100%;
+  object-fit: cover;
+}
 
 /* .icon{
   display: flex;
@@ -214,6 +220,7 @@
 .card6 img {
   height: 60px;
   margin-right: 5px;
+  border-radius: 7px;
 }
 
 .card7 a {
@@ -258,6 +265,7 @@
 .card8 img {
   height: 60px;
   margin-right: 5px;
+  padding: 10px;
 }
 
 
@@ -351,6 +359,7 @@
   display: flex;
   gap: 40px;
   flex-direction: column;
+  margin-bottom: 10px;
 
 }
 
@@ -358,6 +367,7 @@
   width: 350px;
   height: 260px;
   object-fit: cover;
+  border-radius: 7px;
 }
 
 .card11 p {
@@ -382,6 +392,7 @@
 
 .card12 h1 {
   width: 32ch;
+  padding: 10px;
 }
 
 .card12 h1 span {
@@ -398,7 +409,7 @@
 .section2 {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(207, 196, 196);
+   background-color: rgb(212, 202, 202);
 }
 
 .card1,
@@ -441,6 +452,7 @@
 
 .footer1 button:hover {
   background-color: blue;
+  cursor: pointer;
 }
 
 .footerhead {

@@ -21,17 +21,30 @@
 .navigationbar {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 40px;
 }
 
 .navigationbar a {
   text-decoration: none;
   color: #FFA500;
+  padding: 7px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navigationbar a.selected {
+  background-color: #0336FF;
+}
+
+.navigationbar a:hover {
+  background-color: #0336FF;
 }
 
 .section1 {
   display: flex;
   flex-direction: column;
+  margin-top: 35px;
   gap: 30px;
   justify-content: center;
   align-items: center;
@@ -429,16 +442,18 @@
   background-color: blue;
 }
 
-.footerhead{
-margin-top: 40px;
+.footerhead {
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.footerhead h5{
-  font-weight:900
+
+.footerhead h5 {
+  font-weight: 900
 }
-.footerend1{
+
+.footerend1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -447,7 +462,8 @@ margin-top: 40px;
   margin-left: 30px;
   margin-top: 40px;
 }
-.footerend2{
+
+.footerend2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -455,37 +471,45 @@ margin-top: 40px;
   width: 20%;
 
 }
-.footerend3,.footerend4{
+
+.footerend3,
+.footerend4 {
   display: flex;
   flex-direction: column;
   gap: 20px;
   height: 170px;
   width: 15%;
- 
+
 }
-.footerend2 a,.footerend3 a,.footerend4 a{
+
+.footerend2 a,
+.footerend3 a,
+.footerend4 a {
   text-decoration: none;
   color: black;
 }
 
-.footerends{
+.footerends {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 40px;
 }
-.end{
+
+.end {
   background: rgba(0, 0, 0, 0.68);
 }
-.socialmedias{
+
+.socialmedias {
   display: flex;
   gap: 5px;
 }
-.socialmedias i{
+
+.socialmedias i {
   color: white;
 }
 
-.footerbottom{
+.footerbottom {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;

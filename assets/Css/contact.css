@@ -1,0 +1,51 @@
+
+.section1 h2 {
+    font-size: 60px;
+    color: white;
+    padding:150px 0;
+}
+.welcomepage {
+    background-image: url("../images/Rectangle\ 5.png") ;
+    background-size: cover;
+    border: 1px solid;   
+}
+.submitform h2{
+    text-align: center;
+    padding: 20px;
+}
+.inputs input{
+    padding: 15px 30px;
+    width: 35%;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.submitform input::placeholder{
+
+    text-decoration: underline;
+    font-size: 20px;
+}
+textarea{
+    resize: none;
+ width: 750px;
+   height: 212px;
+ font-size: 20px;
+ margin: 40px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submitform button{
+    background-color: #0336FF;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+}
